@@ -1,0 +1,13 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "https://leftxs.org"
+staticdir: "static"
+#canonifyurls: true
+title: "Bla"
+params:
+    MastheadTitle: "svx 's random thoughts"
+...
