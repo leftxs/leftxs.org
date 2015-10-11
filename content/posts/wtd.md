@@ -20,7 +20,7 @@ IMHO it doesn't matter which style of docs you choose, as far as you are consist
 
 ## Work-flow
 
-Do micro-commits, meaning if you worked om something which needs documentation, to that now even if it is not fully perfect written down yet, just document what you did in a few words or couple of lines, you still know what you did and why.
+Do micro-commits, meaning if you worked om something which needs documentation, do that now even if it is not fully perfect written yet, just document what you did in a few words or couple of lines, you still know what you did and why.
 
 Doing that two weeks later will be much harder because you will not remember everything and you will also have less motivation. 
 
@@ -38,7 +38,7 @@ Configure your editor of choice for spell-check and rst-linting.
 
 ### Git
 
-Use a githook to remind you to do documentation and also for basic checks.
+Use a githook to remind you to do documentation and for basic checks.
 
 ![Githook Example](/img/screen_githook_example.png) 
 
@@ -48,9 +48,19 @@ See the gist:
 
 ### mr.docs
 
-mr.docs is a tool, which can help you with testing your docs.
+Usually I work on documentation from different projects, which all have the same setup. I was looking for a way to install all the dependencies once into one place, why should I have to install the same packages all over and over again.
 
-See the video:
+Since I always or let's say most of the time have the same setup, meaning we have a README and all documentation under /docs, written in plain ``rst``, build and tested with [Sphinx](http://sphinx-doc.org/), this was an easy one to solve.
+
+Hello **mr.docs** !
+
+[mr.docs](https://github.com/tiramisusolutions/mr.docs) is a fully pre-configured sphinx setup, running in a docker container. Please see the [project documentation](https://tiramisusolutions.github.io/mr.docs/) for more info.
+
+See the video for a short introduction.
+
 
 {{< youtube TsCUMRN41U0 >}}
+
+mr.docs is not finished yet, I am still working on some rough edges, but for a 0.1 version the result makes me happy.
+
 
