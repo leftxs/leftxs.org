@@ -40,4 +40,17 @@ Configure your editor of choice for spell-check and rst-linting.
 
 Use a githook to remind you to do documentation and also for basic checks.
 
-{{< gist 6fe3cc77fb9f2bb8d805 >}}
+![Githook Example](/img/screen_githook_example.png) 
+
+See the gist:
+
+{{< gist 30ff90ad5796a244494f >}}
+
+### mr.docs
+
+mr.docs is a tool, which can help you with testing your docs.
+
+See the video:
+
+{{< youtube TsCUMRN41U0 >}}
+
