@@ -58,7 +58,7 @@ Since I always or let's say most of the time have the same setup, meaning we hav
 
 Hello **mr.docs** !
 
-[mr.docs](https://github.com/tiramisusolutions/mr.docs) is a fully pre-configured sphinx setup, running in a docker container. Please see the [project documentation](https://tiramisusolutions.github.io/mr.docs/) for more info.
+[mr.docs](https://github.com/tiramisusolutions/mr.docs) is a fully pre-configured sphinx setup, running in a docker container. Please see the [project documentation](https://mrdocs.readthedocs.org/en/latest/) for more info.
 
 See the video for a short introduction.
 
