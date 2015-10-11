@@ -19,7 +19,7 @@ help:
 
 html:
 	@echo "${green}>>> Delete old files and doing a fresh build${reset}"
-	rm -rf public
+	if [ -d "public" ]; then rm -rf public; fi
 	hugo
 
 post:
