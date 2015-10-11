@@ -36,6 +36,10 @@ Configure your editor of choice for spell-check and rst-linting.
 
 ![Sublime Editor](/img/editor.png) 
 
+Use [OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer) to review your docs.
+
+OmniMarkupPreviewer is a plugin for both Sublime Text 2 and Sublime Text 3 that preview markups in web browsers. It also renders markups into htmls and send it to web browser in the backgound, which enables a live preview.
+
 ### Git
 
 Use a githook to remind you to do documentation and for basic checks.
